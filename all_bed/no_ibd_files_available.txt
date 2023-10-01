@@ -1,0 +1,10 @@
+Error: Unable to open file HG00733_ibd.bed. Exiting.
+Error: Unable to open file HG01983_ibd.bed. Exiting.
+Error: Unable to open file NA19660_ibd.bed. Exiting.
+Error: Unable to open file NA19675_ibd.bed. Exiting.
+Error: Unable to open file NA19685_ibd.bed. Exiting.
+Error: Unable to open file NA19985_ibd.bed. Exiting.
+Error: Unable to open file NA20322_ibd.bed. Exiting.
+Error: Unable to open file NA20336_ibd.bed. Exiting.
+Error: Unable to open file NA20341_ibd.bed. Exiting.
+Error: Unable to open file NA20344_ibd.bed. Exiting.
