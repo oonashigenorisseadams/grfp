@@ -2,9 +2,9 @@
 
 # This script runs the bedtools intersection, run within all_bed
 
-input="/home/oona/nsf_grfp/filenames_tmp.txt"
+input="/home/oona/nsf_grfp/bedtools_analysis/filenames_tmp.txt"
 
 while IFS= read -r line
 do
-  bedtools intersect -a "$line".bed -b "$line"_ibd.bed > "$line"_intersect.bed
+  bedtools intersect -wao -a "$line"_ibd.bed -b "$line".bed > "$line"_intersect.bed
 done < "$input"
