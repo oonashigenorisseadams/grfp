@@ -49,12 +49,12 @@ lines(c(25,25), c(10,15), lwd=1.3)
 draw.circle(5, 8, 2)
 rect(4, 6.4, 4.7, 9.6, col='grey', border='grey')
 rect(5.3, 6.4, 6, 9.6, col = 'grey', border = 'grey')
-rect(5.3, 7, 6, 9.6, col = l_org, border = l_org)
+rect(5.3, 8, 6, 9.6, col = l_org, border = l_org)
 
 rect(23, 6, 27, 10)
 rect(24, 6.4, 24.7, 9.6, col = 'grey', border = 'grey')
 rect(25.3, 6.4, 26, 9.6, col='grey', border='grey')
-rect(25.3, 7, 26, 9.6, col = l_org, border = l_org)
+rect(25.3, 9, 26, 9.6, col = l_org, border = l_org)
 
 dev.off()
 
