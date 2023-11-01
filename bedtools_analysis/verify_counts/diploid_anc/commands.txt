@@ -1,0 +1,8 @@
+# add column with filename
+awk '{print $0 (NF?"\t":"") FILENAME}' AFR_AFR.bed > etc.bed
+
+# split files by ID#
+awk -F'\t' '{print>$4}' etc.bed
+
+# rename all with bed extension
+find . -type f -exec mv '{}' '{}'.bed \;
